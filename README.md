@@ -1,4 +1,3 @@
-# oss-audit-24BCE10526
 # The Open Source Audit
 
 ## Student Details
@@ -8,38 +7,52 @@ Registration Number: 24BCE10526
 ## Course
 Open Source Software (OSS NGMC Course)
 
+---
+
 ## Chosen Software
 Python Programming Language
 
 ---
 
-## Project Description
-This project performs an audit of the Python Programming Language as an open-source software. It includes analysis of its origin, license, ethical aspects, Linux footprint, ecosystem, and comparison with proprietary software. The project also includes 5 shell scripts demonstrating Linux and shell scripting concepts.
+## About This Project
+
+This project is part of my Open Source Software course, where I explored how open-source tools actually work beyond just using them.
+
+Instead of only reading theory, I chose to work with Python and understand its background, licensing, and how it fits into the Linux environment. While doing this, I also created a set of shell scripts to interact with the system and observe how open-source tools behave in real conditions.
+
+The goal of this project was not just to complete an assignment, but to actually understand how much we rely on open-source software in daily computing.
 
 ---
 
-## Shell Scripts
+## What This Repository Contains
 
-### 1. system_info.sh
-Displays system details such as kernel version, user, uptime, date, Linux distribution, and license information.
+This repository includes five shell scripts that demonstrate different aspects of Linux and scripting:
 
-### 2. package_check.sh
-Checks whether Python is installed and displays its version and details using package manager.
+- **system_info.sh**  
+  Displays basic system details like kernel version, user, uptime, and distribution.  
+  This helped me understand how Linux exposes system information through commands.
 
-### 3. disk_audit.sh
-Audits important system directories and displays permissions and disk usage.
+- **package_check.sh**  
+  Checks whether Python is installed and shows related package details.  
+  It uses conditions and a case statement to describe the software.
 
-### 4. log_analyzer.sh
-Analyzes a log file and counts occurrences of a keyword like "error" and displays last 5 matches.
+- **disk_audit.sh**  
+  Goes through important directories and shows their permissions and size.  
+  This script gave me a clearer idea about file structure and access control in Linux.
 
-### 5. manifesto.sh
-Generates a personalized open-source philosophy statement based on user input and saves it to a file.
+- **log_analyzer.sh**  
+  Reads a log file and counts how many times a keyword appears.  
+  It also shows the last few matching lines, which is useful for debugging.
+
+- **manifesto.sh**  
+  This is a small interactive script that asks questions and generates a personal open-source statement.  
+  It was the most interesting one to write because it combines logic with user input.
 
 ---
 
 ## How to Run the Project
 
-### Step 1: Clone Repository
+### Step 1: Clone the repository
 ```bash
 git clone https://github.com/your-username/oss-audit-24BCE10526
 cd oss-audit-24BCE10526
