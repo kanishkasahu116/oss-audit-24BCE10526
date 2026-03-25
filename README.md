@@ -20,8 +20,6 @@ This project is part of my Open Source Software course, where I explored how ope
 
 Instead of only reading theory, I chose to work with Python and understand its background, licensing, and how it fits into the Linux environment. While doing this, I also created a set of shell scripts to interact with the system and observe how open-source tools behave in real conditions.
 
-The goal of this project was not just to complete an assignment, but to actually understand how much we rely on open-source software in daily computing.
-
 ---
 
 ## What This Repository Contains
